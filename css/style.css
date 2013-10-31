@@ -1,0 +1,224 @@
+.container {
+	background-color: black;
+	font-family: georgia;
+	width:900px;
+	color:white;
+	text-align: center;
+	margin: 0px auto;
+	} 
+
+.container2 {
+	background-color: black;
+	font-family: georgia;
+	width:900px;
+	color:white;
+	margin: 0px auto;
+	}
+
+
+
+.homebox {
+	width: 32%;
+	float: left;
+	padding: 6px;
+	margin-top: 20px;
+	background-color: black;
+	display:inline;
+
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	text-align:left;
+	margin: 70px 100px 0px 100px;
+	background-image: url('../images/wild_flowers.png');
+	line-height: 1.6;
+	}
+
+body h3 a {
+	width: 100%;
+	text-decoration: none;
+	padding:5px 0;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+header {
+	background: #000;
+	height: 60px;
+	color:white;	
+}
+
+nav	{
+	clear:both;
+}
+
+ul { 
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float:left;
+	width: 10%;
+	height: 30px;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li a {
+	width: 100%;
+	text-align:center;
+	text-decoration: none;
+	display:block;
+	padding:24px 0;
+	color: white;
+}
+
+nav ul li a:hover, nav ul li a.active {
+	font-weight: bold;	
+}
+
+#header-bar {
+	right: 0;
+	left: 0;
+	height: 4.5em;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	font-weight: normal;
+	top: 0;
+}
+
+h1 {
+	font-family: 'Clicker Script', cursive;
+	font-size: 45px;
+	float: left;
+	padding-right: 15px;
+	margin-left: 20px;
+}
+
+h2 {
+	font-family: 'Clicker Script', cursive;
+	font-size: 45px;
+	margin: -0.17em 0;
+
+}
+
+h3 {
+	font-family: 'Clicker Script', cursive;
+	font-size: 45px;
+	margin-left: 30px;
+	height: 30px;
+
+}
+
+h4 {
+	font-family: georgia;
+	margin: 0px 30px 0px 30px;
+	font-weight: normal;
+
+}
+
+h5 {
+	font-family: georgia;
+	margin: 0px 220px 0px 220px;
+	font-weight: normal;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+
+}
+
+h6 {
+	font-family: georgia;
+	font-weight: normal;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+body h5 a {
+	width: 100%;
+	text-decoration: none;
+	padding:5px 0;
+	background-color: black;
+	color: white;
+}
+
+body h5 a:hover, body h5 a.active {
+	font-weight:bold;
+}
+
+#about {
+	width:900px;
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+
+form {
+	font-family: georgia;
+	font-size: 16px;
+}
+
+
+.header {
+
+    font-family: 'Clicker Script', cursive;
+    display: inline-block;
+    padding-right: 8px;
+    vertical-align: top;
+    white-space: nowrap;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    float: right;
+    line-height: 1em;
+    margin-right: 10px;
+}
+
+.description {
+	background-color: black;
+	font-family: georgia;
+	width:90px;
+	color:white;
+	text-align: center;
+	margin: 10px auto;
+}
+
+
+#footer {
+	padding: 5px;
+    text-align: center;
+}
+
+.firstname {
+	margin-top: 18px;
+}
+
+.commentbox {
+	margin-top: -10px;
+}
+
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+	font-family: georgia;
+	margin-top: 5px;
+}
+
+@media only screen and (min-width:750px) {
+
+	.span-one-third {
+		width: 30%;
+	}
+}
+
+
+
